@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>To_Do_List</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="body_wrap">
+    <h1 class="hidden" id="greeting"></h1>
+    <div class="side_left">
+      <div class="side_left_box_first" id="weather">
+        <span style="font-weight: bold;" ></span>
+        <span style="font-weight: bold;"></span>
+        
+      </div>
+      <div class="side_left_box_second">
+        <h2 id="date"></h2>
+        <h2 id="clock">00:00:00</h2>
+      </div>
+    </div>
+    <div class="mid_content">
+
+      <div class="mid_content_first">노래 한곡 듣고 시작해요!</div>
+      <div id="player"></div>
+
+    </div>
+    <div class="side_right"> 
+      <form id="todo-form">
+        <div>오늘 할일은 무엇인가요?</div>
+        <input type="text" placeholder="입력 후 Enter!" required />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/greetings.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/date.js"></script>
+  <script src="js/youtube.js"></script>
+</body>
+
+</html>
